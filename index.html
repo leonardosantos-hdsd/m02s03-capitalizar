@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>[M02S03] Ex.01 – Capitalizar</title>
+    <style>
+      :root { font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial; }
+      body { max-width: 720px; margin: 40px auto; padding: 0 16px; }
+      label, input, button { font-size: 1rem; }
+      #saida { margin-top: 12px; padding: 12px; background: #f5f5f5; border-radius: 6px; min-height: 2.2em; }
+      .hint { color: #666; font-size: .9rem; }
+    </style>
+  </head>
+  <body>
+    <h1>[M02S03] Ex.: 01 – Capitalizar uma palavra</h1>
+    <p class="hint">Exemplo de entrada: “este é um teste” → Saída: “Este É Um Teste”.</p>
+
+    <form id="form-cap">
+      <label for="entrada">Frase:</label><br />
+      <input id="entrada" type="text" placeholder="Digite a frase..." required style="width:100%;padding:.6rem;margin:.5rem 0" />
+      <button type="submit">Capitalizar</button>
+    </form>
+
+    <h3>Resultado</h3>
+    <div id="saida"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

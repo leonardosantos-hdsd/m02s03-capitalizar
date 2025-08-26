@@ -1,1 +1,8 @@
+# sistema
+.DS_Store
+Thumbs.db
+
+# node (se usar no futuro)
 node_modules/
+npm-debug.log*
+dist/
